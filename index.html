@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MST3K Character Guessing Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:600" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" href="http://example.com/favicon.png">
+
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <h1>MST3K Characters Guessing Game</h1>
+    </nav>
+  </header>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 gameplay-column">
+        <div class="card">
+          <div class="card-body image-grid">
+            <h2 class="card-title">Guess A Letter To Start Game!</h2>
+            <img id="image" src="assets/images/MYSTERY-SCIENCE-THEATERG1206.jpg" width="100%">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 gameplay-column">
+        <div class="card">
+          <div class="card-body tracker">
+            <h3>Guess the word:<br>
+              <span class="game-text" id="current-word"></span>
+            </h3>
+          </div>
+          <div class="card-body tracker">
+            <h3>Guesses Left:
+              <span class="game-text" id="remaining-guesses"></span>
+            </h3>
+          </div>
+          <div class="card-body tracker">
+            <h3>Wrong Letters Guessed:<br>
+              <span class="game-text" id="wrong-guess"></span>
+            </h3>
+          </div>
+          <div class="card-body tracker">
+            <h3>Wins:
+              <span class="game-text" id="total-wins"></span>
+            </h3>
+          </div>
+          <div class="card-body tracker">
+            <h3>Losses:
+              <span class="game-text" id="total-losses"></span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
