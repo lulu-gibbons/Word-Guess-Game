@@ -26,3 +26,6 @@ The basic componants of the game are:
   * Number of Guesses Remaining: (# of guesses remaining for the user).
   * Letters Already Guessed: (Letters the user has guessed, displayed like `L Z Y H`).
   * After the user wins/loses the game should automatically choose another word and make the user play it.
+  
+  ### Link to the project
+  https://lulu-gibbons.github.io/Word-Guess-Game/
