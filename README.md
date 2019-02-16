@@ -1,4 +1,4 @@
-# Word-Guess-Game
+# Word Guessing Game
 
 This is a hangman style game where the player tries to guess a mystery word before their number of tries is up.
 
